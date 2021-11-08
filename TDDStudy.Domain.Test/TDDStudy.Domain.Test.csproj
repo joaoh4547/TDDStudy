@@ -20,4 +20,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TDDStudy.Domain\TDDStudy.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TDDStudy.Domain.Enums;
 
 namespace TDDStudy.Domain
 {
@@ -10,10 +11,10 @@ namespace TDDStudy.Domain
     {
         public string Name { get; private set; }
         public double Workload { get; set; }
-        public string TargetAdience { get; set; }
+        public TargetAudience TargetAdience { get; set; }
         public decimal Value { get; set; }
 
-        public Course(string name, double workload, string targetAdience, decimal value)
+        public Course(string name, double workload, TargetAudience targetAdience, decimal value)
         {
             Name = name;
             Workload = workload;

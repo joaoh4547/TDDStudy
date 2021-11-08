@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using TDDStudy.Domain.Enums;
+using Xunit;
 
 namespace TDDStudy.Domain.Test.Courses
 {
@@ -18,7 +19,7 @@ namespace TDDStudy.Domain.Test.Courses
             {
                 Name = "Curso de TDD",
                 Workload = (double)40.0,
-                TargetAudience = "Estudantes",
+                TargetAudience = TargetAudience.Estudante,
                 CourseValue = (decimal)100
             };
 
